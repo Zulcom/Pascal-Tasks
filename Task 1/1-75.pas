@@ -17,6 +17,6 @@ begin
                      )
                   ,2)
              +power(cos(y),2) );
-   writeln('tetha= ',tetha,' a = ',a);    // вывод результатов
+   writeln('tetha= ',tetha,' a = ',a);    // РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
    readln;
 end.

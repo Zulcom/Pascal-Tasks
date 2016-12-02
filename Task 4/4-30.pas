@@ -17,8 +17,8 @@ begin
     e := 0.001;
     n := 1;
     while (abs(y - ((pi * pi) / 3 + 4 * s)) >= e) and (n < nmax) do 
-    begin//åñëè çäåñá abs(y-s),a //
-      sn := power(-1, n) * (cos(n * x) / (n * n) ); // çäåñü sn:=x*x - íà÷í¸ò ğàáîòàòü íîğìàëüíî.
+    begin//ĞµÑĞ»Ğ¸ Ğ·Ğ´ĞµÑĞ± abs(y-s),a //
+      sn := power(-1, n) * (cos(n * x) / (n * n) ); // Ğ·Ğ´ĞµÑÑŒ sn:=x*x - Ğ½Ğ°Ñ‡Ğ½Ñ‘Ñ‚ Ñ€Ğ°Ğ±Ğ¾Ñ‚Ğ°Ñ‚ÑŒ Ğ½Ğ¾Ñ€Ğ¼Ğ°Ğ»ÑŒĞ½Ğ¾.
       s := s + sn; 
       n := n + 1;
     end;

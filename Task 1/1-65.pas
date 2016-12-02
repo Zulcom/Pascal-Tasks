@@ -7,6 +7,6 @@ program Project1;
 begin
    x:= ( power(sin(b*exp(2)),3) ) / (2*teta);
    phi:= (0.31*x*x-0.24*x+0.8*b)/( 0.53*x*x-0.07*x-0.98 );
-   writeln('phi = ',phi,' x = ',x);    // вывод результатов
+   writeln('phi = ',phi,' x = ',x);    // РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
    readln;
 end.

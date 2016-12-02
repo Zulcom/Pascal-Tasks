@@ -1,12 +1,12 @@
 program Project1;
      var
-     t : real = 0.0574; //константа t
-     omega : real = 4; // константа "усики"
-     gamma : real;  // вычисляемые значения
+     t : real = 0.0574; //РєРѕРЅСЃС‚Р°РЅС‚Р° t
+     omega : real = 4; // РєРѕРЅСЃС‚Р°РЅС‚Р° "СѓСЃРёРєРё"
+     gamma : real;  // РІС‹С‡РёСЃР»СЏРµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ
      y : real;
 begin
    gamma:= ( cos(power(omega*t,3))*cos(power(omega*t,3)) )/(omega*t);
    y:= 2*exp(gamma)+exp( ln(power(gamma,2))*(1/3) );
-   writeln('y = ',y,' gamma = ',gamma);    // вывод результатов
+   writeln('y = ',y,' gamma = ',gamma);    // РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
    readln;
 end.

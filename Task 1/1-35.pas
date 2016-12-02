@@ -8,6 +8,6 @@ begin
    a:=sin(b)*sin(b);
    x:=logN(10,a)*logN(10,a);
    phi:=exp(2+x+a)*sqrt(a*power(x,3));
-   writeln('phi = ',phi,' x = ',a,'b = ',b);    // вывод результатов
+   writeln('phi = ',phi,' x = ',a,'b = ',b);    // РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
    readln;
 end.
