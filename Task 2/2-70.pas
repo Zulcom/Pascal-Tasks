@@ -16,7 +16,7 @@ begin
   if (z <= 0) then
     y := z*z
    else
-  if (1< x) or (x <2) then
+  if (1< z) or (x <z) then
     y := 0
    else
     y := abs(z);
